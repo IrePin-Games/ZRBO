@@ -1,59 +1,62 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class InputReader : MonoBehaviour, Controls.IGameplayActions
+namespace _Zrbo.Scripts
 {
-    public event Action JumpEvent;
+    public class InputReader : MonoBehaviour, Controls.IGameplayActions
+    {
+        public Vector2 MovementValue { get; private set; }
     
-    private Controls controls;
-    private void Start()
-    {
-        controls = new Controls();
-        controls.Gameplay.SetCallbacks(this);
-        controls.Gameplay.Enable();
-    }
+        public event Action JumpEvent;
+    
+        private Controls _controls;
+        private void Start()
+        {
+            _controls = new Controls();
+            _controls.Gameplay.SetCallbacks(this);
+            _controls.Gameplay.Enable();
+        }
 
-    private void OnDestroy()
-    {
-        controls.Gameplay.Disable();
-    }
+        private void OnDestroy()
+        {
+            _controls.Gameplay.Disable();
+        }
 
-    public void OnMove(InputAction.CallbackContext context)
-    {
+        public void OnMove(InputAction.CallbackContext context)
+        {
+            MovementValue = context.ReadValue<Vector2>();
+        }
+
+        public void OnJump(InputAction.CallbackContext context)
+        {
+            if(!context.performed){return;}
+            JumpEvent?.Invoke();
+        }
+
+        public void OnRun(InputAction.CallbackContext context)
+        {
         
-    }
+        }
 
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        if(!context.performed){return;}
-        JumpEvent?.Invoke();
-    }
-
-    public void OnRun(InputAction.CallbackContext context)
-    {
+        public void OnCrouch(InputAction.CallbackContext context)
+        {
         
-    }
+        }
 
-    public void OnCrouch(InputAction.CallbackContext context)
-    {
+        public void OnLook(InputAction.CallbackContext context)
+        {
         
-    }
+        }
 
-    public void OnLook(InputAction.CallbackContext context)
-    {
-        
-    }
-
-    public void OnPause(InputAction.CallbackContext context)
-    {
+        public void OnPause(InputAction.CallbackContext context)
+        {
        
-    }
+        }
 
-    public void OnAim(InputAction.CallbackContext context)
-    {
+        public void OnAim(InputAction.CallbackContext context)
+        {
         
+        }
     }
 }

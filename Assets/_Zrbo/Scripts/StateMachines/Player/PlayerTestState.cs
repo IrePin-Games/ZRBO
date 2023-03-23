@@ -12,18 +12,38 @@ namespace _Zrbo.Scripts.StateMachines.Player
         public override void Enter()
         {
             stateMachine.InputReader.JumpEvent += OnJump;
+  
         }
 
         public override void Tick(float deltaTime)
         {
-            timer += deltaTime;
+            Vector3 moveVec = new Vector3();
+            Vector3 currentVector = stateMachine.transform.TransformDirection(moveVec).normalized;
+            moveVec.x = stateMachine.InputReader.MovementValue.x;
+            moveVec.y = 0f;
+            moveVec.z = stateMachine.InputReader.MovementValue.y;
             
-            Debug.Log(timer);
+            
+            stateMachine.Controller.Move(currentVector * stateMachine.WalkMovementSpeed * deltaTime);
+
+            // if (stateMachine.InputReader.MovementValue == Vector2.zero)
+            // {
+            //     return;
+            // }
+
+            HandleCharacterRotation();
+
         }
 
         public override void Exit()
         {
-            stateMachine.InputReader.JumpEvent -= OnJump;
+           
+        }
+        
+        private void HandleCharacterRotation()
+        {
+            float yawCamera = stateMachine.Cam.transform.rotation.eulerAngles.y;
+            stateMachine.transform.rotation = Quaternion.Euler(0, yawCamera, 0);
         }
 
         private void OnJump()
