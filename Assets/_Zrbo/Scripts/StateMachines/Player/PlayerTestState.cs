@@ -16,21 +16,11 @@ namespace _Zrbo.Scripts.StateMachines.Player
 
         public override void Tick(float deltaTime)
         {
-            Vector3 moveVec = new Vector3();
-            moveVec.x = stateMachine.InputReader.MovementValue.x;
-            moveVec.z = stateMachine.InputReader.MovementValue.y;
-            Vector3 movement = stateMachine.transform.TransformDirection(moveVec).normalized;
-            
-            
+            Vector3 movementVector = new Vector3(stateMachine.InputReader.MovementValue.x, 0,
+                stateMachine.InputReader.MovementValue.y);
+            Vector3 movement = stateMachine.transform.TransformDirection(movementVector).normalized;
             stateMachine.Controller.Move(movement * (stateMachine.WalkMovementSpeed * deltaTime));
-            HandleCharacterRotation();
-            // if (stateMachine.InputReader.MovementValue == Vector2.zero)
-            // {
-            //     return;
-            // }
-
-
-
+            RotateCharacter(); 
         }
 
         public override void Exit()
@@ -38,7 +28,7 @@ namespace _Zrbo.Scripts.StateMachines.Player
            
         }
         
-        private void HandleCharacterRotation()
+        private void RotateCharacter()
         {
             float yawCamera = stateMachine.Cam.transform.rotation.eulerAngles.y;
             stateMachine.transform.rotation = Quaternion.Euler(0, yawCamera, 0);
