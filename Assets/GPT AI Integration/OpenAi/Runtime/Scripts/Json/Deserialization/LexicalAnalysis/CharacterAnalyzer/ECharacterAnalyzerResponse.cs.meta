@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cc2e08b043caa8f42b8698386306da36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Json/Deserialization/LexicalAnalysis/CharacterAnalyzer/ECharacterAnalyzerResponse.cs
+  uploadId: 573152

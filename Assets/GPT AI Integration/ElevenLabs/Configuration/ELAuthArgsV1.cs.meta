@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d68fc7b5a80d4aa79109436db5cbf045
+timeCreated: 1677768885
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/ElevenLabs/Configuration/ELAuthArgsV1.cs
+  uploadId: 573152

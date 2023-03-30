@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3950378f7c31a764186e6c15c62014fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Json/OpenAiJsonException.cs
+  uploadId: 573152

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 5e27931ab2a143549734741e6870ee33
+timeCreated: 1677789262
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Api/V1/Api/Audio/Transcriptions/TranscriptionRequestV1.cs
+  uploadId: 573152

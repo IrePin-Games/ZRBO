@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68aabfede4eeba444abc34db5c63b1e7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Documentation/1_Overview.md
+  uploadId: 573152

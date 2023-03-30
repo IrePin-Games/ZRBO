@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 55ed9d0cd3444ab4a8f3d58b7a357642
+timeCreated: 1679579383
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Api/V1/Api/Images/ImagesResourceV1.cs
+  uploadId: 573152

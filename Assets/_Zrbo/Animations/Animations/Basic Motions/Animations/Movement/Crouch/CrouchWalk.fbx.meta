@@ -561,10 +561,10 @@ ModelImporter:
     second: Crouch - Walk - Forwards
   - first:
       74: 975711542534647600
-    second: BasicMotions@Crouch01 - Walk01 - ForwardsLeft
+    second: Crouch - WalkForwardsLeft
   - first:
       74: 4807028578033579084
-    second: BasicMotions@Crouch01 - Walk01 - ForwardsRight
+    second: Crouch - Walk - ForwardsRight
   - first:
       74: -5620424293976833446
     second: Crouch - Walk - Left
@@ -637,7 +637,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BasicMotions@Crouch01 - Walk01 - ForwardsLeft
+      name: Crouch - WalkForwardsLeft
       takeName: BasicMotions@Crouch01 - Walk01 - ForwardsLeft
       internalID: 0
       firstFrame: 0
@@ -666,7 +666,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BasicMotions@Crouch01 - Walk01 - ForwardsRight
+      name: Crouch - Walk - ForwardsRight
       takeName: BasicMotions@Crouch01 - Walk01 - ForwardsRight
       internalID: 0
       firstFrame: 0

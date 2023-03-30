@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f58a6ffe2f7efa44bb6ea53136d36c37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Json/Serialization/JsonBuilder.cs
+  uploadId: 573152

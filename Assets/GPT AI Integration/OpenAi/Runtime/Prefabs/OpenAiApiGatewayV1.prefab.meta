@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 15d84929ed54ded40904bb85c13f5b87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Prefabs/OpenAiApiGatewayV1.prefab
+  uploadId: 573152

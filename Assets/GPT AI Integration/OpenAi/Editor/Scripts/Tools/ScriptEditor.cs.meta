@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bf99b30c010df274a8443911d6bc7563
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Editor/Scripts/Tools/ScriptEditor.cs
+  uploadId: 573152

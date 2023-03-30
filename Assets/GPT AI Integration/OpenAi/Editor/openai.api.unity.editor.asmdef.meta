@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58a743fc042d1cc4bacc5a05c82a03f9
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Editor/openai.api.unity.editor.asmdef
+  uploadId: 573152

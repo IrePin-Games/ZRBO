@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2066f9849ca95b4a87c73345014ca5b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/Demo Scripts/Visual Scripting/Script Graphs/Demos/OpenAIDemo
+    - Translate.asset
+  uploadId: 573152

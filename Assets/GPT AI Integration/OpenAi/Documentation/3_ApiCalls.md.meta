@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc00ea052f096d8409eb252f4855e8ba
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Documentation/3_ApiCalls.md
+  uploadId: 573152

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9bcb6ebced040b2488da5d53c952d232
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Api/V1/Api/Engines/Engine/Searches/SearchResourceV1.cs
+  uploadId: 573152

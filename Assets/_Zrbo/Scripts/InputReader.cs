@@ -9,6 +9,8 @@ namespace _Zrbo.Scripts
         public Vector2 MovementValue { get; private set; }
     
         public event Action JumpEvent;
+        
+        public event Action CrouchEvent;
     
         private Controls _controls;
         private void Start()
@@ -41,7 +43,8 @@ namespace _Zrbo.Scripts
 
         public void OnCrouch(InputAction.CallbackContext context)
         {
-        
+            if(!context.performed){return;}
+            CrouchEvent?.Invoke();
         }
 
         public void OnLook(InputAction.CallbackContext context)

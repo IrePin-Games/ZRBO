@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 672d04ddb1f852449bbdd712933b43f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Config/DefaultCompletionArgs.asset
+  uploadId: 573152

@@ -436,7 +436,7 @@ ModelImporter:
     second: BasicMotions@Crouch01_C - Idle
   - first:
       74: 7400006
-    second: BasicMotions@Crouch01_A - Idle
+    second: Crouch - Idle
   - first:
       74: 7400008
     second: BasicMotions@Crouch01 - Start
@@ -503,7 +503,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: BasicMotions@Crouch01_A - Idle
+      name: Crouch - Idle
       takeName: BasicMotions@Crouch01_A - Idle
       internalID: 0
       firstFrame: 0

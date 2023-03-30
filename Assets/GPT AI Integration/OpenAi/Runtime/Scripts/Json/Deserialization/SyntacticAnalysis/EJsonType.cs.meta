@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b68cf8be6cf32ad4db5f6e93f25b0b6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 243729
+  packageName: GPT AI Integration
+  packageVersion: 1.5
+  assetPath: Assets/GPT AI Integration/OpenAi/Runtime/Scripts/Json/Deserialization/SyntacticAnalysis/EJsonType.cs
+  uploadId: 573152
